@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-=======
-.rotate90 {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-
->>>>>>> c550bf5885609c883d5b832edaadc66e4f42013e
 /*Start global (default)*/
 
 * {
@@ -43,14 +31,9 @@ a {
 
 p {
     /*p text*/
-<<<<<<< HEAD
     font-size: 1.8rem;
     font-weight: 300;
     text-align: left;
-=======
-    font-size: 1.8 rem;
-    font-weight: 300;
->>>>>>> c550bf5885609c883d5b832edaadc66e4f42013e
 }
 
 img {
@@ -299,13 +282,8 @@ li {
 }
 
 .profile-img {
-<<<<<<< HEAD
     flex: .5;
     width: 30%;
-=======
-    flex: 1;
-    width: 50rem;
->>>>>>> c550bf5885609c883d5b832edaadc66e4f42013e
     margin-right: 5rem;
 }
 
@@ -459,11 +437,7 @@ li {
 
 .timeline .date::before {
     content: attr(data-date);
-<<<<<<< HEAD
     left: -23rem;
-=======
-    left: -22rem;
->>>>>>> c550bf5885609c883d5b832edaadc66e4f42013e
     text-align: right;
     min-width: 12rem;
     font-size: 1.3rem;
