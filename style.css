@@ -40,8 +40,9 @@ a {
 
 p {
     /*p text*/
-    font-size: 1.8 rem;
+    font-size: 1.8rem;
     font-weight: 300;
+    text-align: left;
 }
 
 img {
@@ -290,8 +291,8 @@ li {
 }
 
 .profile-img {
-    flex: 1;
-    width: 50rem;
+    flex: .5;
+    width: 30%;
     margin-right: 5rem;
 }
 
@@ -445,7 +446,7 @@ li {
 
 .timeline .date::before {
     content: attr(data-date);
-    left: -22rem;
+    left: -23rem;
     text-align: right;
     min-width: 12rem;
     font-size: 1.3rem;
