@@ -166,7 +166,7 @@ li {
 }
 
 .menu-toggler {
-    position: absolute;
+    position: fixed;
     top: 5rem;
     right: 5rem;
     width: 5rem;
@@ -234,20 +234,23 @@ li {
 
 .landing-text h1 {
     font-size: 20rem;
-    font-family: 'Courgette', cursive;
+    font-family: 'Courgette', cursive, sans-serif;
     background: linear-gradient(to bottom, #191970, #87CEFA);
     background-clip: text;
     /*put the background color to the text*/
-    -webkit-text-fill-color: transparent;
-    /*specifies the fill color of characters of text*/
+    color: transparent;
     padding: 1rem;
     user-select: none;
     /*so user can't drag the logo around*/
 }
 
 .landing-text h6 {
-    font-size: 2rem;
-    font-weight: 300;
+    font-family: 'Life Savers', cursive, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    background: linear-gradient(to top, #E0FFFF, #00CED1);
+    background-clip: text;
+    color: transparent;
 }
 
 
@@ -563,7 +566,7 @@ input[type="submit"]:hover {
 
 /* Media queries (for responsite on devices)*/
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 320px) {
     body {
         background: url(img/darkback.jpeg) no-repeat center fixed;
         background-size: cover;
@@ -617,7 +620,7 @@ input[type="submit"]:hover {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
     .menu-toggler {
         top: 2rem;
         right: 2rem;
