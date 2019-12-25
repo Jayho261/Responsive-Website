@@ -236,9 +236,9 @@ li {
     font-size: 20rem;
     font-family: 'Courgette', cursive, sans-serif;
     background: linear-gradient(to bottom, #191970, #87CEFA);
-    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     /*put the background color to the text*/
-    color: transparent;
     padding: 1rem;
     user-select: none;
     /*so user can't drag the logo around*/
@@ -249,8 +249,8 @@ li {
     font-size: 2.5rem;
     font-weight: 400;
     background: linear-gradient(to top, #E0FFFF, #00CED1);
-    background-clip: text;
-    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 
