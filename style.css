@@ -238,6 +238,7 @@ li {
     background: linear-gradient(to bottom, #191970, #87CEFA);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
     /*put the background color to the text*/
     padding: 1rem;
     user-select: none;
@@ -251,6 +252,7 @@ li {
     background: linear-gradient(to top, #E0FFFF, #00CED1);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
 }
 
 
