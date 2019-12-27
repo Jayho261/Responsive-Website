@@ -61,7 +61,7 @@ img {
 
 .section-heading {
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
 }
 
 .section-heading h1 {
@@ -96,6 +96,34 @@ img {
 }
 
 .section-heading h1::after {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    bottom: -1rem;
+}
+
+.section-heading h2 {
+    position: relative;
+    margin: 7rem 0 3rem 0;
+}
+
+.section-heading h2::before,
+.section-heading h2::after {
+    content: '';
+    position: absolute;
+    bottom: -.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.section-heading h2::before {
+    width: 15rem;
+    height: 3px;
+    border-radius: .8rem;
+}
+
+.section-heading h2::after {
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 100%;
@@ -296,7 +324,6 @@ li {
 
 .three-lang h1 {
     font-size: 2.5rem;
-    background: linear-gradient(to right, #00FFFF, #00CED1, #4682B4, #0000CD);
     background: linear-gradient(to right, #0000CD, #4682B4, #00CED1, #00FFFF);
     -webkit-background-clip: text;
     background-clip: text;
@@ -327,31 +354,6 @@ li {
 
 .about-details {
     flex: 1;
-}
-
-.social-media {
-    margin-top: 5rem;
-}
-
-.social-media i {
-    font-size: 5rem;
-    transition: color 650ms;
-}
-
-.fa-facebook-square:hover {
-    color: #4169E1;
-}
-
-.fa-instagram:hover {
-    color: #FF00FF;
-}
-
-.fa-github-square:hover {
-    color: #778899;
-}
-
-.fa-linkedin:hover {
-    color: #1E90FF;
 }
 
 
@@ -505,43 +507,95 @@ li {
 
 /* Start contact*/
 
-
-/*background color*/
-
-form {
-    width: 70%;
-    margin: 0 auto;
-    /*auto center the element within its container*/
+.nav-list h2 {
+    text-transform: uppercase;
+    font-size: 4rem;
 }
 
-form label {
-    font-size: 1.5rem;
+.social-media {
+    margin-top: 5rem;
 }
 
-input,
-textarea {
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 5px;
-    border: none;
-    /*when click on the box*/
-    outline-color: #DC143C;
-    resize: none;
+.social-media i {
+    font-size: 5rem;
+    transition: color 650ms;
 }
 
-input[type="submit"] {
-    width: initial;
-    background-color: #87CEFA;
-    ;
-    padding: 1rem;
-    border-radius: .8rem;
-    cursor: pointer;
-    transition: background-color 650ms;
+.fa-facebook-square:hover {
+    color: #4169E1;
 }
 
-input[type="submit"]:hover {
-    color: black;
-    background-color: #1E90FF;
+.fa-instagram:hover {
+    color: #FF00FF;
+}
+
+.fa-github-square:hover {
+    color: #778899;
+}
+
+.fa-linkedin:hover {
+    color: #1E90FF;
+}
+
+.iconify {
+    margin: 0 0 -1rem 0;
+    width: 57px;
+    height: 57px;
+    transition: color 650ms;
+}
+
+.iconify:hover {
+    color: #ff4d4d;
+}
+
+.email {
+    background: linear-gradient(to right, #ff1a1a, #ff8080);
+    -webkit-background-clip: text;
+    background-clip: text;
+    /*put the background color to the text*/
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    animation: text-animate 1.5s infinite alternate;
+}
+
+.facebook {
+    background: linear-gradient(to right, #4169E1, #1E90FF, #87CEFA);
+    -webkit-background-clip: text;
+    background-clip: text;
+    /*put the background color to the text*/
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    animation: text-animate 1.5s infinite alternate;
+}
+
+.instagram {
+    background: linear-gradient(to right, #ffff66, #ff674d, #ff33ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    /*put the background color to the text*/
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    animation: text-animate 1.5s infinite alternate;
+}
+
+.github {
+    background: linear-gradient(to right, #696969, #778899, #D3D3D3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    /*put the background color to the text*/
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    animation: text-animate 1.5s infinite alternate;
+}
+
+.linkedin {
+    background: linear-gradient(to right, #007399, #0099cc, #D3D3D3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    /*put the background color to the text*/
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    animation: text-animate 1.5s infinite alternate;
 }
 
 
