@@ -12,6 +12,10 @@ html {
     color: #eee;
 }
 
+header {
+    margin-top: 5.5rem;
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -62,7 +66,7 @@ img {
 
 .section-heading h1 {
     font-size: 10rem;
-    font-family: Comfortaa, cursive, sans-serif;
+    font-family: 'Comfortaa', cursive, sans-serif;
     margin: 7rem 0 3rem 0;
     text-transform: uppercase;
     position: relative;
@@ -86,7 +90,7 @@ img {
 }
 
 .section-heading h1::before {
-    width: 10rem;
+    width: 20rem;
     height: 3px;
     border-radius: .8rem;
 }
@@ -240,12 +244,15 @@ li {
 }
 
 .landing-text h1 {
-    font-size: 20rem;
-    font-family: 'Courgette', cursive, sans-serif;
-    background: linear-gradient(to bottom, #191970, #87CEFA);
-    -webkit-text-fill-color: transparent;
+    font-size: 30rem;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    background: linear-gradient(to right, #191970, #1E90FF, #00BFFF, #B0E0E6);
     -webkit-background-clip: text;
     background-clip: text;
+    /*put the background color to the text*/
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    animation: text-animate 2s infinite alternate;
     /*put the background color to the text*/
     padding: 1rem;
     user-select: none;
@@ -289,10 +296,18 @@ li {
 
 .three-lang h1 {
     font-size: 2.5rem;
+    background: linear-gradient(to right, #00FFFF, #00CED1, #4682B4, #0000CD);
+    background: linear-gradient(to right, #0000CD, #4682B4, #00CED1, #00FFFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    /*put the background color to the text*/
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    animation: text-animate 2s infinite alternate;
 }
 
 .about-heading h1 {
-    font-size: 10.3rem;
+    font-size: 10rem;
     font-family: 'Comfortaa', cursive, sans-serif;
     opacity: .3;
     /*transparent*/
