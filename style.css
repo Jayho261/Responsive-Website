@@ -151,6 +151,7 @@ li {
 .nav-link:hover,
 .nav-link:focus {
     background: linear-gradient(to bottom, #191970, #87CEFA);
+    -webkit-background-clip: text;
     background-clip: text;
     /*put the background color to the text*/
     -webkit-text-fill-color: transparent;
@@ -274,6 +275,16 @@ li {
     margin-bottom: 6rem;
 }
 
+.three-lang {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1.8rem;
+}
+
+.three-lang h1 {
+    font-size: 2.5rem;
+}
+
 .about-heading h1 {
     font-size: 10rem;
     opacity: .3;
@@ -315,6 +326,10 @@ li {
 
 .fa-github-square:hover {
     color: #778899;
+}
+
+.fa-linkedin:hover {
+    color: #1E90FF;
 }
 
 
@@ -568,7 +583,7 @@ input[type="submit"]:hover {
 
 /* Media queries (for responsite on devices)*/
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 760px) {
     body {
         background: url(img/darkback.jpeg) no-repeat center fixed;
         background-size: cover;
