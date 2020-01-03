@@ -766,7 +766,7 @@ li {
         flex-direction: column;
     }
     .profile-img {
-        width: 60%;
+        display: none;
     }
     .portfolio-item {
         flex-direction: column;
