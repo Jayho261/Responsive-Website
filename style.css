@@ -394,7 +394,7 @@ li {
     /*View detail button*/
     display: inline-block;
     margin-top: 3.5rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-transform: uppercase;
     transition: color 750ms;
     /*color changing speed*/
@@ -739,8 +739,8 @@ li {
         font-size: 1.2rem;
         left: -22rem;
     }
-    .timeline.date::after {
-        left: -5.9rem;
+    .timeline .date::after {
+        left: -8rem;
     }
     .work-img {
         width: 100%;
@@ -748,7 +748,10 @@ li {
     }
 }
 
-@media screen and (max-width: 320px) {
+
+/*for smartphones*/
+
+@media screen and (max-width: 450px) {
     .menu-toggler {
         top: 2rem;
         right: 2rem;
@@ -772,20 +775,30 @@ li {
         flex-direction: column;
     }
     .portfolio-img {
-        margin: 0 0 2rem 0;
-        width: 70%;
-        order: 1;
+        display: none;
     }
     .portfolio-description {
         text-align: center;
         margin: 0;
         order: 2;
     }
-    .timeline p {
-        font-size: 1.6rem;
+    .portfolio-description p {
+        padding: 2rem;
     }
-    .timeline.date::before {
-        font-size: .9rem;
+    .timeline ul {
+        margin: 0 0 0 auto;
+        padding: 3rem;
+    }
+    .timeline p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .timeline .date::before {
+        font-size: 1rem;
+        left: -18rem;
+    }
+    .timeline .date::after {
+        left: -4rem;
     }
     form {
         width: 100%;
