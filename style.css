@@ -390,18 +390,23 @@ li {
     margin: 1rem 0;
 }
 
-.portfolio-description .cta {
+.portfolio-description .button {
     /*View detail button*/
     display: inline-block;
     margin-top: 3.5rem;
     font-size: 2rem;
     text-transform: uppercase;
     transition: color 750ms;
-    /*color changing speed*/
+    background-color: rgb(33, 72, 122);
+    border-radius: .5rem;
+    padding: 2rem;
 }
 
-.portfolio-description .cta:hover {
-    color: #87CEEB;
+
+/*color changing speed*/
+
+.portfolio-description .button:hover {
+    color: rgb(223, 203, 23);
 }
 
 
