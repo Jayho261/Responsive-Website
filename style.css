@@ -139,7 +139,7 @@ header {
     top: -100vh;
     z-index: 50;
     /*to make sure the text doesn't sit on top of navigation*/
-    background-color: #16162d;
+    background-color: #1c3b75;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     /*for animation when we open the nav*/
@@ -397,7 +397,10 @@ li {
     font-size: 2rem;
     text-transform: uppercase;
     transition: color 750ms;
-    background-color: rgb(33, 72, 122);
+    /*background-color: rgb(33, 72, 122);*/
+    /*background: linear-gradient(to right, #085078, #85d8ce, #085078);*/
+    background: linear-gradient(to top, #000428, #004e92);
+    -webkit-background-clip: padding-box;
     border-radius: .5rem;
     padding: 2rem;
 }
@@ -406,7 +409,7 @@ li {
 /*color changing speed*/
 
 .portfolio-description .button:hover {
-    color: rgb(223, 203, 23);
+    color: rgb(125, 205, 252);
 }
 
 
